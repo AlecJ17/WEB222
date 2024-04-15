@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Driver Information</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="./api.js"></script>
+  </head>
+  <body>
+    <h1>Driver Information</h1>
+    <label for="year">Enter a year:</label>
+    <input type="text" id="year" name="year" />
+    <button onclick="fetchDrivers()">Get Drivers</button>
+    <div id="results"></div>
+  </body>
+</html>
